@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A web survey">
+		<meta name="author" content="Jonathan Dreyer">
+
+		<title>Sondage sortie des urnes</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+		<!-- Font Awesome CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+		<!-- Custom styles CSS -->
+		<link href="css/style.css" rel="stylesheet" media="screen">
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- Cookie -->
+		<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+		<!-- custom script -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+		<!-- Google Tag Manager -->
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-KZMQBTX');
+		</script>
+	</head>
+
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZMQBTX&nojscript=true"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<div class="wrap">
+			<div class="page-header">
+				<div class="row header">
+					<div class="header-title">
+						<h1>Sondage sortie des urnes</h1>
+						<h3>Election présidentielle Sénégal - 24 février 2019</h3>
+					</div>
+				</div>
+				<div class="row header-line">
+					<div class="col-xs-4 col-md-4" style="background: #1eb53a; min-height: inherit;"></div>
+					<div class="col-xs-4 col-md-4" style="background: #fcd116; min-height: inherit;"></div>
+					<div class="col-xs-4 col-md-4" style="background: #ce1126; min-height: inherit;"></div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="">
+					<div class="row content-title">
+						<p>Sélectionnez votre candidat et appuyez sur transmettre.</p>
+					</div>
+
+					<div class="row content-title">
+							<h2>Candidats</h2>
+					</div>
+
+					<div class="row content-section">
+						<div class="row radio content-radio">
+							<label style="font-size: 1.5em">
+								<input type="radio" name="choice" value="Madické Niang">
+								<span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+									1 . Madické Niang
+							</label>
+						</div>
+						<div class="row radio content-radio">
+							<label style="font-size: 1.5em">
+								<input type="radio" name="choice" value="El Hadji Issa Sall">
+								<span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+									2 . El Hadji Issa Sall
+							</label>
+						</div>
+						<div class="row radio content-radio">
+							<label style="font-size: 1.5em">
+								<input type="radio" name="choice" value="Macky Sall">
+								<span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+									3 . Macky Sall
+							</label>
+						</div>
+						<div class="row radio content-radio">
+							<label style="font-size: 1.5em">
+								<input type="radio" name="choice" value="Idrissa Seck">
+								<span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+									4 . Idrissa Seck
+							</label>
+						</div>
+						<div class="row radio content-radio">
+							<label style="font-size: 1.5em">
+								<input type="radio" name="choice" value="Ousmane Sonko">
+								<span class="cr"><i class="cr-icon glyphicon glyphicon-arrow-right"></i></span>
+									5 . Ousmane Sonko
+							</label>
+						</div>
+					</div>
+
+					<div class="row content-button" id="contact-form">
+						<button id="submit" class="btn btn-custom" value="Send" disabled>
+							<i class="fa fa-send icon-before"></i> Transmettre
+						</button>
+					</div>
+
+					<div class="row response-submit"></div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div>
+					<p class="copy">&copy; 2019 <a href="http://jdreyer.ch">J. Dreyer</a>, All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
